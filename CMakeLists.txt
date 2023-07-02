@@ -178,6 +178,7 @@ include (CMake/install.cmake)
 
 # Enable (1) or disable (0) generation of experimental headers (WIP)
 set (GENERATE_EXPORT_HEADERS 0)
+set (OPTION_BUILD_SHARED_LIBS 1)
 
 if (OPTION_BUILD_SHARED_LIBS AND GENERATE_EXPORT_HEADERS)
 
